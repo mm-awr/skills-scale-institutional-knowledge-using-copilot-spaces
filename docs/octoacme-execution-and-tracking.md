@@ -20,8 +20,10 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Security scanning in CI (Security Lead reviews findings)
+- Manual QA for feature acceptance when needed — **QA Lead** signs off against the [Definition of Done](./octoacme-templates-and-checklists.md#definition-of-done-dod-template)
+
+> See [Templates & Checklists](./octoacme-templates-and-checklists.md) for the Definition of Done template and release readiness checklist.
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -37,4 +39,5 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Risk register updated weekly (see [Risk Register template](./octoacme-templates-and-checklists.md#risk-register-template))
+- [ ] RACI matrix reviewed and agreed by team (see [RACI template](./octoacme-templates-and-checklists.md#raci-matrix-template))

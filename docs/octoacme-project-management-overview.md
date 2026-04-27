@@ -14,11 +14,18 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM):** coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM):** defines outcomes, prioritizes backlog, and measures success.
+- **Developers:** implement features, collaborate on design and testability.
+- **UX Designer:** leads user research, design specs, and usability validation.
+- **Security Lead:** owns threat modeling, secure-development guidance, and security sign-off.
+- **SRE/DevOps:** manages CI/CD, reliability, and incident response.
+- **Data Analyst:** defines KPIs, builds dashboards, and supports data-driven decisions.
+- **Operations:** handles post-release support readiness, runbooks, and customer impact.
+- **QA Lead:** coordinates test strategy, acceptance sign-off, and Definition of Done.
+- **Stakeholders:** provide requirements, approvals, and business direction.
+
+> See [Roles & Personas](./octoacme-roles-and-personas.md) for detailed responsibilities and cross-role interactions, and [Templates & Checklists](./octoacme-templates-and-checklists.md) for a pre-populated RACI matrix template.
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +51,5 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use [Templates & Checklists](./octoacme-templates-and-checklists.md) to copy/paste reusable RACI matrices, kickoff agendas, status updates, risk registers, and release readiness checklists.
+- Review [Roles & Personas](./octoacme-roles-and-personas.md) during project kickoff to agree on who fills each role for your project.
